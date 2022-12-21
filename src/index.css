@@ -48,7 +48,7 @@ body {
 .pomodoro .controls {
      display: flex;
      align-items: center;
-     justify-content: space-around;
+     justify-content: space-evenly;
 }
 
 .pomodoro button {
@@ -63,12 +63,7 @@ body {
 
 .working .pomodoro button {
      background: #f8485e;
-     border: none;
-     cursor: pointer;
-     padding: 0.625rem 1.563rem;
-     transition: background 300ms ease-in-out;
-     margin: 1.25rem auto;
-     border-radius: 5px;
+     color: #fff;
 }
 
 .pomodoro .details {
