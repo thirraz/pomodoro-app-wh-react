@@ -1,3 +1,5 @@
+/* all application css */
+
 * {
      margin: 0;
      padding: 0;
@@ -7,4 +9,68 @@
 
 body {
      font-family: sans-serif;
+     color: black;
+     background: #62b6b7;
+     transition: background 300ms ease-in-out;
+     line-height: 1.5;
+}
+
+.container {
+     max-width: 640px;
+     margin: 0 auto;
+}
+
+.working {
+     background: #f8485e;
+}
+
+.hidden {
+     display: none;
+}
+
+.pomodoro {
+     background: #fff;
+     margin: 3.125rem 1.25rem;
+     padding: 1.25rem;
+     border-radius: 9px;
+}
+
+.pomodoro h2 {
+     font-size: 1.5rem;
+     text-align: center;
+}
+
+.pomodoro .timer {
+     font-size: 6rem;
+     text-align: center;
+}
+
+.pomodoro .controls {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+}
+
+.pomodoro button {
+     background: #62b6b7;
+     border: none;
+     cursor: pointer;
+     padding: 0.625rem 1.563rem;
+     transition: background 300ms ease-in-out;
+     margin: 1.25rem auto;
+     border-radius: 5px;
+}
+
+.working .pomodoro button {
+     background: #f8485e;
+     border: none;
+     cursor: pointer;
+     padding: 0.625rem 1.563rem;
+     transition: background 300ms ease-in-out;
+     margin: 1.25rem auto;
+     border-radius: 5px;
+}
+
+.pomodoro .details {
+     margin: 1.25rem 0;
 }
