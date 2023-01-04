@@ -1,4 +1,4 @@
-#ADVICE: The timer must be defined within the program, in the App.tsx file
+# ADVICE: The timer must be defined within the program, in the App.tsx file
 
 # Getting Started with Create React App
 
